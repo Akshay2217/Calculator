@@ -1,0 +1,49 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.bg-red{
+    text-align: center;
+    background-color: aqua;
+   margin: auto;
+   max-width: 30vw;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+button{
+    height: 50px;
+    width: 50px
+    
+}
+.button{
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 0px 3px;
+    padding: 20px
+    
+}
+.row{
+    margin: 8px 0px;
+}
+button:hover{
+    background-color: rgb(115, 115, 247);
+}
+.row input{
+    font-size: 15px;
+    margin: 0px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#btn0{
+    width: 111px
+}
