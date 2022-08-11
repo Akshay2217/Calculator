@@ -9,7 +9,7 @@ Array.from(buttons).forEach((button) => {
             string = "";
             document.querySelector('input').value = string
         }  
-        else if (e.target.innerHTML == "b"){
+        else if (e.target.innerHTML == "B"){
              
             string = string.slice(0, - 1);
             document.querySelector('input').value = string
